@@ -1,0 +1,302 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+.icons img{
+    position: absolute;
+    border-radius: 2rem;
+    height: 50px;
+    width:50px;
+    transition: 0.9s;
+
+
+}
+
+.icons img:hover {
+    box-shadow: 0 0 0px 1px rgb(3, 3, 3);
+    transform: translateY(10px);
+    
+    
+}
+
+
+h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: black;
+    top:20%;
+    left:500px;
+}
+
+
+.welcome{
+    z-index: 2;
+    font-family: Times New Roman,serif;
+    color: black;
+    position: absolute;
+    font-size: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.bar {
+    
+    overflow: hidden;
+    display: flex;
+    width:1700px;
+
+  }
+  
+
+  .bar a {
+    justify-content: space-around;
+    font-family: Courier New,monospace;
+    font-weight: 900;
+    font-size: 100px;
+    letter-spacing: 5px;
+    width:23%;
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+  .bar a:hover {
+    color:white;
+  }
+  
+
+  .bar a.active {
+    color: #ff7900;
+  }
+
+.aboutText{
+    position: absolute;
+    top: 775px;
+    left: 150px;
+}
+
+.title{
+  position: absolute;
+  top:5%;
+  left:5%;
+}
+
+.ui img{
+  position: absolute;
+  border-radius: 50%;
+  width:300px;
+  height:300px;
+  top:1500px;
+  left:10%;
+  transition: 0.5s;
+
+}
+.ui img:hover{
+  transform: translateY(-20px);
+}
+.ui h2{
+  position: absolute;
+  left:11%;
+  top:1850px;
+
+}
+
+.ui p{
+  position: absolute;
+  left:11%;
+  top:1900px;
+
+}
+
+.gd img{
+  position: absolute;
+  border-radius: 50%;
+  width:300px;
+  height:300px;
+  top:1500px;
+  left:42%;
+  transition: 0.5s;
+
+}
+.gd img:hover{
+  transform: translateY(-20px);
+}
+.gd h2{
+  position: absolute;
+  left:45%;
+  top:1850px;
+}
+
+.typo img{
+  position: absolute;
+  border-radius: 50%;
+  width:300px;
+  height:300px;
+  top:1500px;
+  left:75%;
+  transition: 0.5s;
+}
+.typo img:hover{
+  transform: translateY(-20px);
+}
+
+.typo h2{
+  position: absolute;
+  left:79%;
+  top:1850px;
+
+}
+.buttonCV{
+  position: absolute;
+  right:35%;
+  top:2720px;
+}
+
+#btn
+{
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    padding: 6px 30px;
+    background:black;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    letter-spacing: 5px;
+    white-space: nowrap;
+    box-shadow: inset 0 0 0 0 lightpink;
+    transition: ease-out 0.5s;
+
+
+}
+#btn:hover{
+  background-color: lightpink;
+  color:black;
+  box-shadow: inset 300px 0 0 0 lightpink;
+}
+
+
+.contactForm{
+  position: absolute;
+  top:3400px;
+  right:260px;
+  width:22%;
+  padding:40px;
+  background:#ff5757;
+  
+}
+
+.contactForm h2{
+  font-size: 50px;
+  font-weight: 400;
+  color: #333;
+}
+
+
+
+.contactForm .inputBox input{
+  width:100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin:10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  background: none;
+}
+
+.contactForm .inputBox textarea{
+  width:100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin:10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  background: none;
+
+}
+
+.contactForm .inputBox span{
+  position: absolute;
+  left:35px;
+  padding: 5px 0;
+  font-size: 16px;
+  margin:10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color:black;
+  
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+  color:#e91e63;
+  font-size:12px;
+  transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"]{
+  position: absolute;
+  width:100px;
+  background:black;
+  color:#fff;
+  border:none;
+  cursor:pointer;
+  padding:10px;
+  font-size: 18px;
+  right:140px;
+
+}
+
+.contactForm .inputBox input[type="submit"]:hover{
+  background-color:lightpink;
+  color:black;
+}
+.lastText h3{
+  position: absolute;
+  font-size: 32px;
+  top:3770px;
+  left:280px;
+  color: black;
+
+
+}
+
+#myBtn{
+  position:absolute;
+  top:4000px;
+  right:30px;
+  width:5%;
+  z-index:99;
+  outline: black;
+  background-color:#e91e63;
+  color:white;
+  cursor:pointer;
+  padding:15px;
+  border-radius: 15px;
+  font-size:18px;
+  transition: 0.5s;
+}
+
+#myBtn:hover{
+  background-color: black;
+  transform: translateY(-10px);
+
+}
+
+
+
+
+ 
